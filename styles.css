@@ -1,0 +1,122 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.timeout.com%2Fnewyork%2Fthings-to-do%2Fbest-coding-classes-in-nyc&psig=AOvVaw2LPN3qM7D4bLLilZ8KRYax&ust=1724487934277000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDnga3YiogDFQAAAAAdAAAAABAE') no-repeat center center fixed; /* Replace 'background-image.jpg' with your image URL or path */
+    background-size: cover; /* Ensure the background covers the whole page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative; /* Make sure the body content is positioned correctly */
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for header */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Header text styles */
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Form container */
+.container {
+    width: 100%;
+    max-width: 500px; /* Set the width of the form container */
+    background-color: rgba(0, 0, 255, 0.2); /* Transparent blue background */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto; /* Center the form on the page */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form input and label styling */
+label {
+    margin-top: 10px;
+    color: #333;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Improved styling for fieldsets */
+fieldset {
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 255, 0, 0.1); /* Light green background */
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    padding: 0 10px;
+    border-bottom: 2px solid #4CAF50; /* Green underline */
+    margin-bottom: 10px;
+}
+
+/* Improved styling for checkboxes */
+label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Button styling */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
